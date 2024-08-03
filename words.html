@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Noun Gender Memorizer</title>
+    <link rel="stylesheet" href="words.css">
+</head>
+<body>
+    <div id="app">
+        <h1>German Noun Gender Memorizer</h1>
+        <div id="word-display">Press "Start" to begin </div><br><div id="uosrwfod" ></div>
+        <div id="buttons">
+            <button onclick="checkGender('der')">Der</button>
+            <button onclick="checkGender('die')">Die</button>
+            <button onclick="checkGender('das')">Das</button>
+        </div>
+        <div id="feedback"></div>
+        <button id="next-button" onclick="nextWord()" disabled>Next</button>
+        <button id="restart-button" onclick="restartGame()">Restart</button>
+    </div>
+    <script src="words.js"></script>
+</body>
+</html>

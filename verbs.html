@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Verb Memorizer</title>
+    <link rel="stylesheet" href="words.css">
+</head>
+<body>
+    <div id="app">
+        <h1>German Verb Memorizer</h1>
+        <div id="verb-display" class="word-display"></div>
+        <div id="options">
+            <button id="option1" onclick="checkAnswer(1)">Option 1</button>
+            <button id="option2" onclick="checkAnswer(2)">Option 2</button>
+            <button id="option3" onclick="checkAnswer(3)">Option 3</button>
+        </div>
+        <div id="feedback"></div>
+        <button id="next-button" onclick="nextVerb()" disabled>Next</button>
+    </div>
+    <script src="verbs.js"></script>
+</body>
+</html>
